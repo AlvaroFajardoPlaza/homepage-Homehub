@@ -1,0 +1,41 @@
+.hhcorp1 {
+    min-height: 100vh;
+}
+
+.hhLogoWhite {
+    margin-top: 5rem;
+}
+
+.hhCircleBox {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+.hhCircle{
+    width: 45%;
+    min-width: 500px;
+    -webkit-animation: 20s rotate linear infinite;
+    animation: 20s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    opacity: 0.5;
+};
+
+.benefitCard {
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+}
+
+.benefitCard:hover {
+    background-color: #cc8fb35e;
+    transform: translateY(-2%);
+};
+

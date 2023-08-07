@@ -1,0 +1,53 @@
+.hhcorp2 {
+    background-image: url(../../assets/imgs/hh2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* .v-line {
+    border-left: 1px solid #ffffff;
+    max-height: 20%;
+    left: 50%;
+    position:absolute;
+} */
+
+.hhCircleBox2 {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    margin-right: 900px;
+    margin-left: -400px;
+    display:flex;
+    justify-content: left;
+    align-items:flex-start;
+    opacity: 0.3;
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+.hhCircle2 {
+    width: 80%;
+    -webkit-animation: 25s rotate linear infinite;
+    animation: 25s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+};
+
+.hhOfficeLogo {
+    width: 25px;
+}
+
+.hhOfficeLogo {
+    margin-left: 60%;
+    max-height: 400px;
+    position: absolute;
+}
+
+.hhOfficeBlackLogo {
+    height: 60px;
+    margin: 2rem;
+}
