@@ -19,7 +19,9 @@ const ImageTwo = () => {
   return (
     <>
         {/* <Parallax className='hhcorp2' bgImage={hh2} strength={700}> */}
+
         <Box className='hhcorp2'>
+        <Box sx={{bgcolor:'#00000065'}}>
 
         <Box className='hhCircleBox2'>
           <img className='hhCircle2' src={hhCircle} sx={{zIndex:'0'}}/>
@@ -61,6 +63,7 @@ const ImageTwo = () => {
                 <ArrowForwardIosIcon fontSize="large" sx={{alignSelf:'center'}}/>
               </Box>
             </Box>
+        </Box>
         </Box>
         </Box>
     </>

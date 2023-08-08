@@ -1,6 +1,19 @@
+#homehubNavBar {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
 .hhLogo {
-    align-content: center;
-    max-height: 25px;
-    padding-left:2rem;
+    left: 0;
+    max-height: 21px;
+    padding-left: 1rem;
     padding-right: 3rem;
+}
+
+.menuItems {
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+}
+
+.menuItems:hover {
+    color: #082936;
 }
