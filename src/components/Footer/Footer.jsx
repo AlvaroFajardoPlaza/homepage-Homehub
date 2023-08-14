@@ -9,7 +9,90 @@ import logoWhite from '../../assets/imgs/HH-whiteLogo-400.png';
 const Footer = () => {
   return (
     <>
-     <Box
+        <Box className='hhFooter' sx={{p:'1rem'}}>
+          
+          
+          <section>
+              <img
+                src={logoWhite}
+                className='hhLogo' 
+                title='HomehubLogo' 
+                alt='Logo'
+                />
+
+
+              <Box sx={{display:'flex', flexDirection:'row', justifyContent:'left', alignItems:'center', marginLeft:'-6rem'}}>
+              <span className='socialLinks' >
+                <a>
+                  <img
+                    src='https://cdn.icon-icons.com/icons2/3406/PNG/512/instagram_logo_icon_216343.png'
+                    title='Instagram'
+                    alt='Instagram'   
+                    />
+                </a>
+                <a>
+                  <img
+                    src='https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-512.png'
+                    title='Facebook'
+                    alt='Facebook'   
+                    />
+                </a>
+                {/* <a>
+                  <img
+                    src='https://blog.waalaxy.com/wp-content/uploads/2021/01/index.png'
+                    title='Linkedin'
+                    alt='Linkedin'   
+                    />
+                </a> */}
+              </span>
+              </Box>
+          </section>
+
+          <section>
+            <menu>
+              <Typography variant='h5' sx={{textAlign:'left', color:'#fdfdfd', marginBottom:'1rem', fontSize:'1.5rem', fontWeight:'300'}}>Homehub Cloud</Typography>
+              <li>
+                <a>Data Cloud</a>
+              </li>
+              <li>
+                <a>Clients Private Area</a>
+              </li>
+              <li>
+                <a>Configuration & Documentation</a>
+              </li>
+            </menu>
+          </section>
+
+          <section>
+            <menu>
+              <Typography variant='h5' sx={{textAlign:'left', color:'#fdfdfd', marginBottom:'1rem', fontSize:'1.5rem', fontWeight:'300'}}>Homehub Company</Typography>
+              <li>
+                <a>Blog</a>
+              </li>
+              <li>
+                <a>About us</a>
+              </li>
+              <li>
+                <a>Work with us</a>
+              </li>
+            </menu>
+          </section>
+        </Box>
+
+        <Box className='hhFooter' sx={{paddingBottom:'.5rem'}}>
+          <section classname='footerBottom'>
+              <Typography variant='body1' sx={{fontWeight:'100', fontSize:'1rem', letterSpacing:'.15rem'}}>© Homehub - Living life a simpler way. 2023 All rights reserved</Typography>
+          </section>
+        </Box>
+        
+    </>
+  )
+}
+
+export default Footer
+
+
+{/* <Box
         className='hhFooter'
           component="footer"
           sx={{
@@ -43,9 +126,4 @@ const Footer = () => {
             </Grid>
 
             </Container>
-        </Box>
-    </>
-  )
-}
-
-export default Footer
+        </Box> */}

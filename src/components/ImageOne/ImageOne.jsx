@@ -37,30 +37,30 @@ const ImageOne = () => {
         <Grid container spacing={4} sx={{marginBottom:'12rem', marginTop:'4rem'}}>
 
           <Grid item xs={6} sm={6} lg={3}>
-            <Box className='benefitCard' sx={{height:'250px', bgcolor:'#ffffff50', borderRadius:'1rem', border:'1px solid #ffffff50', boxShadow:'0px 3px 20px #10506B4D', color:'#f5f5f5', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', gap:'1rem'}}>
+            <Box className='benefitCard' sx={{height:'250px', bgcolor:'#ffffff40', borderRadius:'1rem', border:'1px solid #ffffff50', boxShadow:'0px 3px 20px #10506B4D', color:'#f5f5f5', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', gap:'1rem'}}>
             <FlareIcon fontSize='large' variant='' sx={{color:'#ffffff'}}></FlareIcon>
-              <Typography variant='h5' sx={{letterSpacing:'0.3rem', textAlign:'center'}}>ENERGY SAVINGS</Typography>
+              <Typography variant='h5' sx={{letterSpacing:'0.3rem', textAlign:'center', fontWeight:'300', fontSize:'1.2rem'}}>ENERGY SAVINGS</Typography>
             </Box>
           </Grid>
 
           <Grid item xs={6} sm={6} lg={3}>
-            <Box className='benefitCard' sx={{height:'250px', bgcolor:'#ffffff50', borderRadius:'1rem', border:'1px solid #ffffff50', boxShadow:'0px 3px 20px #10506B4D', color:'#f5f5f5', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', gap:'1rem'}}>
+            <Box className='benefitCard' sx={{height:'250px', bgcolor:'#ffffff40', borderRadius:'1rem', border:'1px solid #ffffff50', boxShadow:'0px 3px 20px #10506B4D', color:'#f5f5f5', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', gap:'1rem'}}>
             <SettingsPowerIcon fontSize='large' sx={{color:'#ffffff'}}></SettingsPowerIcon>
-              <Typography variant='h5' sx={{letterSpacing:'0.3rem', textAlign:'center'}}>INTUITIVE CONTROLS</Typography>
+              <Typography variant='h5' sx={{letterSpacing:'0.3rem', textAlign:'center', fontWeight:'300', fontSize:'1.2rem'}}>INTUITIVE CONTROLS</Typography>
             </Box>
           </Grid>
 
           <Grid item xs={6} sm={6} lg={3}>
-            <Box className='benefitCard' sx={{height:'250px', bgcolor:'#ffffff50', borderRadius:'1rem', border:'1px solid #ffffff50', boxShadow:'0px 3px 20px #10506B4D', color:'#f5f5f5', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', gap:'1rem'}}>
+            <Box className='benefitCard' sx={{height:'250px', bgcolor:'#ffffff40', borderRadius:'1rem', border:'1px solid #ffffff50', boxShadow:'0px 3px 20px #10506B4D', color:'#f5f5f5', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', gap:'1rem'}}>
             <SecurityIcon fontSize='large' sx={{color:'#ffffff'}}></SecurityIcon>
-            <Typography variant='h5' sx={{letterSpacing:'0.3rem', textAlign:'center'}}>ADVANCED SECURITY</Typography>
+            <Typography variant='h5' sx={{letterSpacing:'0.3rem', textAlign:'center', fontWeight:'300', fontSize:'1.2rem'}}>ADVANCED SECURITY</Typography>
             </Box>
           </Grid>
 
           <Grid item xs={6} sm={6} lg={3}>
-            <Box className='benefitCard' sx={{height:'250px', bgcolor:'#ffffff50', borderRadius:'1rem', border:'1px solid #ffffff50', boxShadow:'0px 3px 20px #10506B4D', color:'#f5f5f5', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', gap:'1rem'}}>
+            <Box className='benefitCard' sx={{height:'250px', bgcolor:'#ffffff40', borderRadius:'1rem', border:'1px solid #ffffff50', boxShadow:'0px 3px 20px #10506B4D', color:'#f5f5f5', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', gap:'1rem'}}>
             <ControlCameraIcon fontSize='large' sx={{color:'#ffffff'}}></ControlCameraIcon>
-              <Typography variant='h5' sx={{letterSpacing:'0.3rem', textAlign:'center'}}>INTELLIGENT DEVICES</Typography>
+              <Typography variant='h5' sx={{letterSpacing:'0.3rem', textAlign:'center', fontWeight:'300', fontSize:'1.2rem'}}>INTELLIGENT DEVICES</Typography>
             </Box>
           </Grid>
 
